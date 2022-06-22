@@ -28,12 +28,6 @@ public class StudentView {
         String ten = scanner.nextLine();
         String namecheck;
         namecheck = ConvertUtils.removeAccent(ten);
-        while (!ValidationUtils.isNameValid(namecheck)) {
-            System.out.println("Tên " + namecheck + " không đúng." + " Vui lòng nhập lại!" + " (Tên phải viết hoa chữ cái đầu)");
-            System.out.println("Nhập tên: (Ví dụ: Mai Cong Phuoc) ");
-            System.out.print(" ➨ ");
-            ten = scanner.nextLine();
-        }
 
         System.out.println("Nhập tuổi của sinh viên: ");
         int tuoi;
@@ -61,11 +55,6 @@ public class StudentView {
 
         System.out.print("Nhập địa chỉ: \n➨ \t");
         String diaChi = scanner.nextLine();
-        while (!ValidationUtils.isAddressValid(diaChi)) {
-            System.out.println("Địa chỉ " + diaChi + " chưa hợp lệ. Mời nhập lại (Địa chỉ bắt đầu bằng số) \n " +
-                    "\t (vd: 350 Phan Chu Trinh, Hue)");
-            diaChi = scanner.nextLine();
-        }
 
         System.out.print("Nhập điểm trung bình ");
         double diemTrungBinh;
