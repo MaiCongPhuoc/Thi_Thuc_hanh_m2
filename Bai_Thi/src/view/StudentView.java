@@ -293,7 +293,7 @@ public class StudentView {
                                     Menu.mainMenu();
                                     break;
                                 case 2:
-                                    Menu.exit();
+                                    System.exit(0);
                                     break;
                                 default:
                                     System.out.println("\t Nhập lại!!! ");
@@ -332,7 +332,6 @@ public class StudentView {
                         Menu.startMenu();
                         break;
                     case "e":
-                        Menu.exit();
                         System.exit(0);
                         break;
                     default:

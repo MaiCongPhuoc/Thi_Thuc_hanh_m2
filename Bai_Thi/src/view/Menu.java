@@ -40,7 +40,7 @@ public class Menu {
                         MenuSort.option();
                         break;
                     case "0":
-                        exit();
+                        System.exit(0);
                         break;
                     default:
                         System.out.println("Không hợp lệ. Vui lòng nhập lại");
