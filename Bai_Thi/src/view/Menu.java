@@ -46,7 +46,7 @@ public class Menu {
                         System.out.println("Không hợp lệ. Vui lòng nhập lại");
                         flag = false;
                 }
-            } while (!flag);
+            } while (flag);
         } catch (InputMismatchException io) {
             io.printStackTrace();
         } catch (Exception e) {
