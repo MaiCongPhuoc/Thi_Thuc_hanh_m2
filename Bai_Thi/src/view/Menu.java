@@ -33,13 +33,12 @@ public class Menu {
                     case "4":
                         StudentView.remove();
                         break;
+//                    case "5":
+//                        SearchMenu.searchMenu();
+//                        break;
                     case "5":
-                        SearchMenu.searchMenu();
-                        break;
-                    case "6":
                         MenuSort.option();
                         break;
-
                     case "0":
                         exit();
                         break;
@@ -60,15 +59,14 @@ public class Menu {
     public static void mainMenu() {
 
         System.out.print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n" +
-                "▓                                                                  ▓║\n" +
+                "▓                                                                  ▓\n" +
                 "▓                       QUẢN LÝ SINH VIÊN                          ▓\n" +
                 "▓                                                                  ▓\n" +
                 "▓                1. Hiển thị danh sách sinh viên                   ▓\n" +
                 "▓                2. Thêm sinh viên mới                             ▓\n" +
                 "▓                3. Cập nhật danh sách sinh viên                   ▓\n" +
                 "▓                4. Xóa sinh viên khỏi danh sách                   ▓\n" +
-                "▓                5. Tìm kiếm nhân sinh viên                        ▓\n" +
-                "▓                6. Hiển thị sắp xếp sinh viên                     ▓\n" +
+                "▓                5. Hiển thị sắp xếp sinh viên                     ▓\n" +
                 "▓                0. Thoát chương trình                             ▓\n" +
                 "▓                                                                  ▓\n" +
                 "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");

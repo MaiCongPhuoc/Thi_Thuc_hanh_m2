@@ -85,7 +85,7 @@ public class StudentView {
                     Menu.mainMenu();
                     break;
                 case "e":
-                    Menu.exit();
+                    Menu.startMenu();
                     break;
                 default:
                     System.out.println("Xin vui lòng nhập lại!");
@@ -146,7 +146,7 @@ public class StudentView {
                             Menu.mainMenu();
                             break;
                         case "e":
-                            Menu.exit();
+                            Menu.startMenu();
                             System.exit(0);
                             break;
                         default:
@@ -198,7 +198,7 @@ public class StudentView {
                         Menu.mainMenu();
                         break;
                     case "e":
-                        Menu.exit();
+                        Menu.startMenu();
                         System.exit(0);
                         break;
                     default:
@@ -282,8 +282,8 @@ public class StudentView {
                             System.out.print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n" +
                                     "▓                                                                  ▓\n" +
                                     "▓                                                                  ▓\n" +
-                                    "▓                   [1. Nhấn '1' để quay lại                       ▓\n" +
-                                    "▓                   [2. Nhấn '2' để thoát                          ▓\n" +
+                                    "▓                    1. Nhấn '1' để quay lại                       ▓\n" +
+                                    "▓                    2. Nhấn '2' để thoát                          ▓\n" +
                                     "▓                                                                  ▓\n" +
                                     "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n");
                             System.out.printf("➨ \t");
